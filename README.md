@@ -9,7 +9,7 @@ It is a simple test code to test the matrix instruction extension we defined for
 export LLVM_INSTALL =  {YOUR_RISCV_LLVM_INSTALL_DIRECTORY}
 export SYSROOT = "{YOUR RISCV GNU TOOLCHAIN DIRECTORY}/riscv64-unknown-elf"
 export GCC_TOOLCHAIN = {YOUR RISCV GNU TOOLCHAIN DIRECTORY}
-export QEMU_BIN = "{YOUR QEMU BIN DIRECTORY} -cpu rv64"
+export QEMU_BIN = "{YOUR QEMU BIN DIRECTORY}/qemu-riscv64"
 ```
 
 * Run the program.
