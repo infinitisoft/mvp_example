@@ -14,6 +14,6 @@ export QEMU_BIN = "{YOUR QEMU BIN DIRECTORY}/qemu-riscv64"
 
 * Run the program.
   
-Just 'make' will build and run the program.
+Just `make` will build and run the program.
 
 You make also run it using `$QEMU_BIN ./mvp`
