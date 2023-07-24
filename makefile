@@ -1,4 +1,4 @@
-go: mvp
+run: mvp
 	${QEMU_BIN} ./mvp
 	
 mvp: main.c mvp.S makefile
